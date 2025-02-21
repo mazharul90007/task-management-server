@@ -98,7 +98,7 @@ async function run() {
 
                 // Validate the category
                 if (!["todo", "inProgress", "done"].includes(category)) {
-                    return res.status(400).json({ error: "Invalid category" });
+                    return res.status(400).json({ error: "Invalid the category" });
                 }
 
                 // Update the task's category
